@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aviso de Privacidad | Lumina Salon Boutique</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body{ font-family: 'Plus Jakarta Sans', Arial, sans-serif; }
+  h1,h2{ font-family: Georgia, 'Playfair Display', serif; }
+</style>
+</head>
+<body class="bg-[#fbf9f4] text-[#1b1c19]">
+<div class="max-w-3xl mx-auto px-6 py-16">
+  <a href="index.html" class="text-sm text-[#6f5957] hover:underline">&larr; Volver al inicio</a>
+  <h1 class="text-3xl md:text-4xl mt-6 mb-6">Aviso de Privacidad</h1>
+
+  <p class="mb-4 text-sm text-[#4f4443]">Última actualización: <span id="fecha-actualizacion"></span></p>
+
+  <p class="mb-4 leading-relaxed">
+    <strong>LUMINA SALON BOUTIQUE</strong> (en adelante, "el Salón"), con domicilio en
+    <span data-config="address">Av. Presidente Masaryk 123, Polanco, Ciudad de México, CDMX 11560</span>,
+    es responsable del tratamiento de los datos personales que nos proporciones, de conformidad con lo
+    establecido en la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP).
+  </p>
+
+  <h2 class="text-xl mt-10 mb-3">¿Qué datos recabamos?</h2>
+  <p class="mb-4 leading-relaxed">
+    Cuando agendas una cita a través de nuestro sitio web o por WhatsApp, podemos recabar: nombre completo,
+    número de teléfono, correo electrónico (opcional) y el servicio de tu interés.
+  </p>
+
+  <h2 class="text-xl mt-10 mb-3">¿Para qué usamos tus datos?</h2>
+  <ul class="list-disc pl-6 mb-4 space-y-2 leading-relaxed">
+    <li>Confirmar, reprogramar o cancelar tu cita.</li>
+    <li>Contactarte sobre promociones, si así lo autorizas.</li>
+    <li>Mejorar la calidad de nuestro servicio.</li>
+  </ul>
+
+  <h2 class="text-xl mt-10 mb-3">¿Con quién compartimos tus datos?</h2>
+  <p class="mb-4 leading-relaxed">
+    No compartimos, vendemos ni transferimos tus datos personales a terceros, salvo obligación legal.
+  </p>
+
+  <h2 class="text-xl mt-10 mb-3">Derechos ARCO</h2>
+  <p class="mb-4 leading-relaxed">
+    Puedes solicitar el Acceso, Rectificación, Cancelación u Oposición (derechos ARCO) al tratamiento de tus
+    datos personales escribiendo a
+    <span data-config="email">hola@luminasalon.mx</span>.
+  </p>
+
+  <p class="mt-10 text-sm text-[#4f4443] leading-relaxed border-t border-[#e4e2dd] pt-6">
+    Nota para el equipo de Lumina Salon: este es un aviso de privacidad genérico de referencia, no constituye
+    asesoría legal. Antes de publicar el sitio de forma definitiva, sustituye los datos de contacto y, si el
+    salón maneja pagos en línea, cámaras de videovigilancia o marketing por correo, revisa este texto con un
+    abogado para asegurar el cumplimiento completo de la LFPDPPP.
+  </p>
+</div>
+<script>
+  document.getElementById('fecha-actualizacion').textContent = new Date().toLocaleDateString('es-MX', { year: 'numeric', month: 'long', day: 'numeric' });
+</script>
+</body>
+</html>
